@@ -1,0 +1,12 @@
+# Игнорируемые файлы
+node_modules
+.next
+dist
+build
+coverage
+*.log
+.DS_Store
+.env*.local
+*.min.js
+*.min.css
+public
