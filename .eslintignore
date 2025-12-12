@@ -3,7 +3,7 @@ node_modules
 .next
 dist
 build
-public
+src/public
 *.log
 coverage
 *.min.js

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
-import './globals.css';
 import React from 'react';
+import '../styles/global.scss';
+import '../styles/null.scss';
 
 export const metadata: Metadata = {
   title: 'Bullet ToDo List | New Way of productivity',

@@ -1,0 +1,72 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+// Сбрасываем стили ссылок
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Сбрасываем отступы и шрифтовые стили у span (если используется как контейнер)
+span {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+}
+
+// Убираем отступы и маркеры у списков
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// Сбрасываем стили у изображений и форм
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+// Убираем рамки и отступы у контейнеров
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+// Сброс таблиц (на случай использования)
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// Блочная модель по умолчанию
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
